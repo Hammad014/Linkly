@@ -9,10 +9,10 @@ const Footer = () => {
     <div className=''>
       <img className='max-w-full m-auto' src='./images/Linkly.png' alt=''/>
       <div className='flex gap-7 justify-center mt-6 items-center'>
-        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
-        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
-        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-solid fa-phone" /></a>
-        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+        <a href='https://www.youtube.com/' ><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
+        <a href='https://www.youtube.com/' ><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
+        <a href='https://www.youtube.com/' ><FontAwesomeIcon icon="fa-solid fa-phone" /></a>
+        <a href='https://www.youtube.com/' ><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
       </div>
       <p className='mt-5'>Copyrights <FontAwesomeIcon icon="fa-regular fa-copyright" /> 2024 Linkly, Inc</p>
       </div>
