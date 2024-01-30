@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && NODE_ENV=production postcss src/styles/tailwind.css -o build/static/css/tailwind.css",
+    "build": "react-scripts build && NODE_ENV=production postcss src/styles/tailwind.css -o build/static/css/tailwind.css postcss input.css -o output.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
