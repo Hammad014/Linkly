@@ -31,10 +31,10 @@ function App() {
     <div style={{ position: 'relative', maxWidth: '100%' }}>
         {darkMode && (
           <>
-            <img className='mbl-cube1 cube1 absolute z-0 top-0 right-10 h-80' src='./cubes/Rectangle 4 (1).png' />
-            <img className='mbl-cube2 md:cube2 absolute top-80 right-60 h-80 z-0' src='./cubes/Rectangle 4.png' />
-            <img className='mbl-cube3 cube3 absolute z-0 top-20 left-10 h-80' src='./cubes/Rectangle 5 (1).png' />
-            <img className='mbl-cube4 cube4 absolute z-0' src='./cubes/Rectangle 5 (2).png' />
+            <img className='mbl-cube1 cube1 absolute z-0 top-0 right-10 h-80' src='./cubes/Rectangle 4 (1).png' alt=''/>
+            <img className='mbl-cube2 md:cube2 absolute top-80 right-60 h-80 z-0' src='./cubes/Rectangle 4.png' alt=''/>
+            <img className='mbl-cube3 cube3 absolute z-0 top-20 left-10 h-80' src='./cubes/Rectangle 5 (1).png' alt=''/>
+            <img className='mbl-cube4 cube4 absolute z-0' src='./cubes/Rectangle 5 (2).png' alt=''/>
           </>
         )}
 

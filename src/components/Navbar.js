@@ -30,7 +30,7 @@ export const Navbar = ({ showSignIn, showRegister }) => {
 
 <div className='flex justify-between text-white max-w-7xl m-auto p-5 nav-top-div items-center '>
 
-        <Link to='/'> <img className='h-12 logo-head' src='./images/linkly.png'/> </Link>
+        <Link to='/'> <img className='h-12 logo-head' src='./images/linkly.png' alt=''/> </Link>
         <div onClick={handleMenuToggle} className='normal-menu block lg:hidden'>
           <FontAwesomeIcon className='h-7' icon="fa-solid fa-bars" />
         </div>
@@ -52,7 +52,7 @@ export const Navbar = ({ showSignIn, showRegister }) => {
           {showSignIn && (
             <Link to='/login' style={{border:'2px solid white',backgroundColor:'#181e29',borderRadius:'30px'}} className='flex font-semibold items-center p-4 rounded-3xl cursor-pointer'>
               <p className='rounded-2xl pr-1'>Login </p>
-              <img src='./images/sign-in.png'/>
+              <img src='./images/sign-in.png' alt=''/>
             </Link>
           )}
           {showRegister && (
