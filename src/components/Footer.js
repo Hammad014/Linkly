@@ -7,12 +7,12 @@ const Footer = () => {
     <>
     <footer className='max-w-full m-auto text-center text-white mt-24 pt-10 pb-10'>
     <div className=''>
-      <img className='max-w-full m-auto' src='./images/Linkly.png'/>
+      <img className='max-w-full m-auto' src='./images/Linkly.png' alt=''/>
       <div className='flex gap-7 justify-center mt-6 items-center'>
-        <a href='#' target='_blank'><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
-        <a href='#' target='_blank'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
-        <a href='#' target='_blank'><FontAwesomeIcon icon="fa-solid fa-phone" /></a>
-        <a href='#' target='_blank'><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
+        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
+        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-solid fa-phone" /></a>
+        <a href='https://www.youtube.com/' target='_blank'><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
       </div>
       <p className='mt-5'>Copyrights <FontAwesomeIcon icon="fa-regular fa-copyright" /> 2024 Linkly, Inc</p>
       </div>
